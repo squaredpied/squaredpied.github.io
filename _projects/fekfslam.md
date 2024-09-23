@@ -19,7 +19,6 @@ In this implementation, **point features** in the environment are used to estima
 # Methodology
 
 - **Extended Kalman Filter (EKF)**: The EKF is used as a recursive estimator to predict the robot’s state and update the estimate based on observed environmental features. The filter's ability to handle noisy sensor data makes it an essential part of the SLAM process.
-  
 - **Motion Models**: Both **input displacement** and **constant velocity** motion models were used to simulate the robot's movement. These models help estimate the robot's state as it navigates through the environment.
 
 - **Feature Observation**: Environmental features were observed in **polar space** but stored in **Cartesian space**. This method provided flexibility in handling different observation models, allowing the system to adapt to changing environments.
@@ -36,11 +35,13 @@ In this implementation, **point features** in the environment are used to estima
 </div>
 
 # Results
-The **FEKF SLAM algorithm** was tested in simulation to assess its robustness in solving the SLAM problem for a differential drive robot. The results showed that the algorithm efficiently handled prediction and updates while incorporating new features to refine the localization over time. 
+
+The **FEKF SLAM algorithm** was tested in simulation to assess its robustness in solving the SLAM problem for a differential drive robot. The results showed that the algorithm efficiently handled prediction and updates while incorporating new features to refine the localization over time.
 
 The integration of the **EKF** with feature-based SLAM enabled the robot to map its environment more accurately, even without prior knowledge of the surroundings. The system consistently improved localization accuracy with each iteration, providing reliable performance in mapping unknown environments.
 
 # Demonstration
+
 Below are visual demonstrations of the **Feature-based SLAM** system in action. The left image shows the robot's localization results in simulation, while the right image highlights the system performing **feature-based SLAM** with the **EKF algorithm**.
 
 <div class="row justify-content-sm-center">

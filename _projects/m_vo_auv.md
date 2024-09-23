@@ -16,11 +16,12 @@ Collaborator(s): Lisa Paul, Fatima Yousif
 
 This project focuses on the implementation of Monocular Visual Odometry (VO) for an Autonomous Underwater Vehicle (AUV), aimed at accurately estimating the vehicle's motion and trajectory. By leveraging images captured from a down-looking camera, the system processes visual data to estimate the AUV’s movement while navigating underwater environments.
 
-
 # Methodology
+
 The core methodology involves using SIFT feature detection to extract key features from the images and FLANN matching to track these features across consecutive frames, allowing the estimation of the vehicle's relative motion. Given that the down-looking camera views a predominantly planar surface, the system applies homography decomposition to interpret the scene and calculate the AUV’s motion. To enhance accuracy, the system integrates the visual odometry data with sensor inputs through an Extended Kalman Filter (EKF), which fuses visual information with altitude and yaw measurements. This fusion process refines the motion estimates, ensuring more stable and precise trajectory predictions.
 
 The visual odometry system operates through a series of steps:
+
 - **SIFT Feature Detection**: Extracts significant features from underwater images.
 - **FLANN Matching**: Matches features between consecutive frames to estimate relative motion.
 - **RANSAC**: Ensures robust motion estimation by removing outliers from the feature matches.
@@ -37,6 +38,7 @@ The visual odometry system operates through a series of steps:
 </div>
 
 # Results
+
 Below are visual demonstrations of the Monocular VO system in action, showing the estimated motion trajectory compared to the recorded odometry data from the Sparus-II AUV.
 
 <div class="row justify-content-sm-center">

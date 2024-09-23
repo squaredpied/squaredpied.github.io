@@ -16,7 +16,7 @@
     - title: Erasmus Mundus Joint Master in Intelligent Field Robotics System
       institution: Universitat de Girona and University of Zagreb
       year: 2023 - Present
-    
+
     - title: Robotics Summer School and Robotics Student Fellowship
       institution: Eidgenössische Technische Hochschule Zurich
       year: Summer 2023
@@ -32,8 +32,6 @@
         - title: Relevant Courses
           contents:
             - Introduction to Robotics, Artificial Intelligence, Probability and Statistical Methods, Industrial Automation, Control Systems - I, Microprocessors - I, Numerical Analysis for Engineers, Algorithms and Data Structures, Linear Algebra and Ordinary Differential Equations
-    
-    
 
 - title: Experience
   type: time_table
@@ -42,7 +40,7 @@
       institution: <a href="https://asl.ethz.ch/">Autonomous Systems Lab, ETH Zurich</a>
       year: 07/2024 - 08/2024
       description:
-        - Benchmarked and improved a reactive navigation algorithm based on Riemannian Motion Policies using the BARN framework. 
+        - Benchmarked and improved a reactive navigation algorithm based on Riemannian Motion Policies using the BARN framework.
         - Worked on a state estimation project with Beyond Gravity, CH
     #     - Description 2.
     #     - title: Description 3.
@@ -86,7 +84,7 @@
 #         - title: Relevant Courses
 #           contents:
 #             - Introduction to Robotics, Artificial Intelligence, Probability and Statistical Methods, Industrial Automation, Control Systems - I, Microprocessors - I, Numerical Analysis for Engineers, Algorithms and Data Structures, Linear Algebra and Ordinary Differential Equations
-    
+
 #     - year: 2029
 #       items:
 #         - Max Planck Medal
