@@ -41,9 +41,7 @@ The system was developed in Python and implemented within the **Robot Operating 
 
 The results demonstrated the effectiveness of our approach in achieving efficient path planning, exploration coverage, and overall system performance. The integration of **RRT\* with Dubin’s paths** facilitated smooth navigation, while the **PID** and **Pure Pursuit** controllers ensured precise control. Both the simulation and real-world tests yielded successful exploration and mapping outcomes, although further refinement in parameter tuning is necessary for constrained environments.
 
-<div style="text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pr2CdoQ64mg?si=KrXT2NUC3Ub2iXRy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pr2CdoQ64mg?si=KrXT2NUC3Ub2iXRy" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <!-- # Future Work
 Future enhancements could focus on optimizing the performance of **Dubin’s paths** in tight spaces and refining the exploration strategy to handle larger and more complex environments. Further research can also explore real-time adaptive path planning to improve the robot’s ability to navigate in highly dynamic environments. -->

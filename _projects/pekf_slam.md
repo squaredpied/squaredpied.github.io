@@ -46,6 +46,4 @@ The results from both simulated and real-world tests showed that **PEKF SLAM** o
 
 The video below showcases the performance of the **PEKF SLAM** algorithm in a real-world environment, illustrating the robot's ability to localize and map unknown surroundings efficiently.
 
-<div style="text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lBKKqN1C8RA?si=ugBrtMiLO8GB0JpD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lBKKqN1C8RA?si=ugBrtMiLO8GB0JpD" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

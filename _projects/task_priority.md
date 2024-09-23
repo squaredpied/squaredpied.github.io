@@ -41,8 +41,6 @@ The system was rigorously tested in the **Stonefish simulator**, where the **Kob
 
 The video below showcases the system in action, demonstrating the implementation of the **kinematic control system** using the **task-priority redundancy resolution algorithm** for the mobile manipulator.
 
-<div style="text-align: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/W0Ts6vgpDLE?si=rKfMl3aqbzGdKFP2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W0Ts6vgpDLE?si=rKfMl3aqbzGdKFP2" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The simulation results, supported by the demonstration video, highlight the effectiveness of the **task-priority redundancy resolution algorithm** in managing the robot's control system, offering a flexible and scalable solution for mobile manipulator tasks.
