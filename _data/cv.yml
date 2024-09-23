@@ -2,96 +2,110 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Precious Ifeoluwa Philip-Ifabiyi
+    # - name: Date of Birth
+    #   value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English
+    - name: Nationality
+      value: Nigerian
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Erasmus Mundus Joint Master in Intelligent Field Robotics System
+      institution: Universitat de Girona and University of Zagreb
+      year: 2023 - Present
+    
+    - title: Robotics Summer School and Robotics Student Fellowship
+      institution: Eidgenössische Technische Hochschule Zurich
+      year: Summer 2023
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+
+    - title: Bachelor of Science in Mechatronics Engineering
+      institution: <a href="https://emu.edu.tr/en">Eastern Mediterranean University</a>
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - "CGPA : 4/4"
+        - title: Relevant Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Introduction to Robotics, Artificial Intelligence, Probability and Statistical Methods, Industrial Automation, Control Systems - I, Microprocessors - I, Numerical Analysis for Engineers, Algorithms and Data Structures, Linear Algebra and Ordinary Differential Equations
+    
+    
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: <a href="https://center-for-robotics.ethz.ch/education/robotics-student-fellowship/2024-Robotics-Student-Fellows.html">RobotX Student Fellow</a>
+      institution: <a href="https://asl.ethz.ch/">Autonomous Systems Lab, ETH Zurich</a>
+      year: 07/2024 - 08/2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Benchmarked and improved a reactive navigation algorithm based on Riemannian Motion Policies using the BARN framework. 
+        - Worked on a state estimation project with Beyond Gravity, CH
+    #     - Description 2.
+    #     - title: Description 3.
+    #       contents:
+    #         - Sub-description 1.
+    #         - Sub-description 2.
+    # - title: Visiting Professor
+    #   institution: California Institute of Technology, Pasadena, California, US
+    #   year: 1933
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    # - title: Director
+    #   institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+    #   year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    # - title: Professor of Theoretical Physics
+    #   institution: Karl-Ferdinand University, Prague, Czechoslovakia
+    #   year: 1911 - 1917
+    #   description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    # - title: Associate Professor of Theoretical Physics
+    #   institution: University of Zurich, Zurich, Switzerland
+    #   year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#         - title: Relevant Courses
+#           contents:
+#             - Introduction to Robotics, Artificial Intelligence, Probability and Statistical Methods, Industrial Automation, Control Systems - I, Microprocessors - I, Numerical Analysis for Engineers, Algorithms and Data Structures, Linear Algebra and Ordinary Differential Equations
+    
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-- title: Other Interests
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Languages:</u> Python, C, C++, MATLAB, LaTEX
+    - <u>Tools:</u> ROS, Singularity, GIT, Gazebo, SolidWorks
+    - <u>Platforms:</u> Linux, Windows, Arduino, Raspberry

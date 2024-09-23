@@ -1,13 +1,16 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+description: Check out my project collection. 
+nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [course, lab, fun]
 horizontal: false
 ---
+
+> _Tell me and I forget. Teach me and I remember. Involve me and I learn._
+> — Benjamin Franklin
 
 <!-- pages/projects.md -->
 <div class="projects">
