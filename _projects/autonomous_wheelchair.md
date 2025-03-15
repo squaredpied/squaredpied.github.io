@@ -15,6 +15,7 @@ Collaborator(s): Jamal Khader, Jonathan Olukare, Muhammad Lasisi, Joseph Adweka
 ---
 
 ## Abstract
+
 Individuals with disabilities face limitations in their ability to carry out daily activities due to
 impairments in their body structure and function. To address these challenges, engineers have
 developed various assistive devices and technologies designed to support individuals with
@@ -40,7 +41,5 @@ report with necessary graphical models. Verification plans of objectives and sta
 future works were discussed in the last chapter of the report.
 
 ## Demo
-
-
 
 <iframe width="960" height="540" src="https://www.youtube.com/embed/l3cajX4b_rE?si=AH2_HWZ3fh4g-Nxv" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

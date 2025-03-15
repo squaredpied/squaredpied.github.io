@@ -57,4 +57,3 @@ Below are visual demonstrations of the **Feature-based SLAM** system in action. 
 <div class="caption">
     Left: Simulation result showing robot localization with EKF. Right: Feature-based SLAM in action with the EKF algorithm.
 </div>
-

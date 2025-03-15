@@ -44,4 +44,3 @@ The system was developed in Python and implemented within the **Robot Operating 
 The results demonstrated the effectiveness of our approach in achieving efficient path planning, exploration coverage, and overall system performance. The integration of **RRT\* with Dubin’s paths** facilitated smooth navigation, while the **PID** and **Pure Pursuit** controllers ensured precise control. Both the simulation and real-world tests yielded successful exploration and mapping outcomes, although further refinement in parameter tuning is necessary for constrained environments.
 
 <iframe width="960" height="540" src="https://www.youtube.com/embed/pr2CdoQ64mg?si=KrXT2NUC3Ub2iXRy" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-

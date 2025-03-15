@@ -8,7 +8,6 @@ category: lab
 related_publications: false
 ---
 
-
 ([Slides](https://docs.google.com/presentation/d/1QPnclm2N1z_Dmrzqddhv2aGJrMsRXXFC/edit?usp=sharing&ouid=109165434472124604797&rtpof=true&sd=true), [Code](https://github.com/ethz-asl/reactive_avoidance/tree/the-barn-challenge))
 
 ---
