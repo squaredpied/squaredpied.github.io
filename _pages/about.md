@@ -9,14 +9,14 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Zagreb, Croatia</p>
+    <p>Girona, Spain</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently pursuing an Erasmus Mundus Joint Master’s in [Intelligent Field Robotic Systems](https://ifrosmaster.org/) at the Universitat de Girona, Spain, and the University of Zagreb, Croatia. My academic journey is driven by a passion for developing `autonomous robots` that can navigate and operate seamlessly in complex, dynamic environments.
+I am curerntly working on my master's thesis at the [Centre for Underwater Robotics (CIRS)](https://cirs.udg.edu/), University of Girona, focusing on multimodal mapping with side-scan sonar and an optical camera.  My academic journey is driven by a passion for developing `autonomous robots` that can navigate and operate seamlessly in complex, dynamic environments.
 
 Previously, I had the opportunity to work with [Dr. Michael Pantic](http://mpantic.com/) and [Dr. Lionel Ott](http://ott.ai/) at the [Autonomous Systems Lab, ETH Zurich](https://asl.ethz.ch/), during my Robotics Student Fellowship. This experience deepened my expertise in autonomous systems and fueled my enthusiasm for cutting-edge robotics research.
 

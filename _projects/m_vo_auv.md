@@ -3,20 +3,22 @@ layout: page
 title: Monocular Visual Odometry for an Underwater Vehicle
 description: Hands-On Perception
 img: assets/projects/mono_vo/intro.gif
-importance: 3
+importance: 4
 category: course
 related_publications: false
 ---
 
 Collaborator(s): Lisa Paul, Fatima Yousif
 
-([Report](https://drive.google.com/file/d/1i3KJji9XgOkrahJ73M-WNIWCNsoDTedC/view?usp=sharing))
+([Report](https://drive.google.com/file/d/1i1lmJda9EHNveAQobRPJi0PB90aHC-wu/view?usp=sharing), [Slides](https://drive.google.com/file/d/1y8DIZVor8hgLzUsqfw4XKHP0O6g0QJBh/view?usp=sharing))
 
 ---
 
+## Overview
+
 This project focuses on the implementation of Monocular Visual Odometry (VO) for an Autonomous Underwater Vehicle (AUV), aimed at accurately estimating the vehicle's motion and trajectory. By leveraging images captured from a down-looking camera, the system processes visual data to estimate the AUV’s movement while navigating underwater environments.
 
-# Methodology
+## Methodology
 
 The core methodology involves using SIFT feature detection to extract key features from the images and FLANN matching to track these features across consecutive frames, allowing the estimation of the vehicle's relative motion. Given that the down-looking camera views a predominantly planar surface, the system applies homography decomposition to interpret the scene and calculate the AUV’s motion. To enhance accuracy, the system integrates the visual odometry data with sensor inputs through an Extended Kalman Filter (EKF), which fuses visual information with altitude and yaw measurements. This fusion process refines the motion estimates, ensuring more stable and precise trajectory predictions.
 
@@ -37,7 +39,7 @@ The visual odometry system operates through a series of steps:
     Architecture of the Monocular Visual Odometry algorithm.
 </div>
 
-# Results
+## Results
 
 Below are visual demonstrations of the Monocular VO system in action, showing the estimated motion trajectory compared to the recorded odometry data from the Sparus-II AUV.
 
@@ -52,6 +54,3 @@ Below are visual demonstrations of the Monocular VO system in action, showing th
 <div class="caption">
     Results of the visual odometry estimation with EKF
 </div>
-
-<!-- # Challenges and Future Work
-One major challenge was the **absence of ground truth odometry data**, which made it difficult to fully validate the accuracy of the system. Moving forward, the integration of real-time data processing and comparison with ground truth will be crucial in enhancing the reliability of the system. -->

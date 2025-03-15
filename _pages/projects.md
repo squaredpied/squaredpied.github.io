@@ -5,7 +5,7 @@ permalink: /projects/
 description: Check out my project collection.
 nav: true
 nav_order: 3
-display_categories: [course, lab, fun]
+display_categories: [course, lab, misc, fun]
 horizontal: false
 ---
 

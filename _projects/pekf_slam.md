@@ -3,19 +3,21 @@ layout: page
 title: Pose-based EKF SLAM on a Kobuki Turtlebot2
 description: Hands-On Localization
 img: assets/projects/pekfslam/workflow.png
-importance: 5
+importance: 6
 category: course
 ---
 
 Collaborator(s): Lisa Paul, Fatima Yousif
 
-([Report](https://drive.google.com/file/d/168xXPiR4zwG88tONKXlLxwIIvaRZKP_b/view?usp=sharing))
+([Report](https://drive.google.com/file/d/1DJ2Rk26BpJUT22Z1s0vcBvmko5iRmbeA/view?usp=sharing), [Slides](https://drive.google.com/file/d/1Wl3-DsIDNP9BiGiKbGtvuP-pZ4YXfPRn/view?usp=sharing))
 
 ---
 
+## Overview
+
 This project focuses on the implementation of **Pose-Based SLAM (Simultaneous Localization and Mapping)** using an **Extended Kalman Filter (EKF)** on a **Kobuki Turtlebot**. The **PEKF SLAM** (Pose-Based Extended Kalman Filter SLAM) algorithm tackles the core challenge of SLAM: simultaneously creating a map of an unknown environment while determining the robot’s position within that map. To assess the algorithm's performance, testing was carried out in both simulated and real-world environments, demonstrating the feasibility and efficiency of the system.
 
-# Methodology
+## Methodology
 
 The **PEKF SLAM** algorithm integrates the following components for effective localization and mapping:
 
@@ -36,7 +38,7 @@ The **PEKF SLAM** algorithm was tested in both simulated environments using the 
     System architecture of the Pose-Based Extended Kalman Filter SLAM algorithm.
 </div>
 
-# Results
+## Results
 
 The results from both simulated and real-world tests showed that **PEKF SLAM** offers superior performance compared to conventional EKF approaches. The combination of sensor fusion techniques, including **ICP for scan registration** and **ICNN compatibility testing**, led to more accurate localization and mapping.
 
@@ -46,4 +48,4 @@ The results from both simulated and real-world tests showed that **PEKF SLAM** o
 
 The video below showcases the performance of the **PEKF SLAM** algorithm in a real-world environment, illustrating the robot's ability to localize and map unknown surroundings efficiently.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lBKKqN1C8RA?si=ugBrtMiLO8GB0JpD" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/lBKKqN1C8RA?si=ugBrtMiLO8GB0JpD" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

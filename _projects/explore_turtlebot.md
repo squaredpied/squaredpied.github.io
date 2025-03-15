@@ -3,22 +3,24 @@ layout: page
 title: Autonomous Robot Exploration on a Kobuki Turtlebot2
 description: Hands-On Planning
 img: assets/projects/explore_turtlebot/test2.gif
-importance: 1
+importance: 3
 category: course
 related_publications: false
 ---
 
 Collaborator(s): Lisa Paul, Fatima Yousif
 
-([Report](https://drive.google.com/file/d/1yGZ9kmJbnZPWXbjMRGob_BECRjHCIesm/view?usp=drive_link))
+([Report](https://drive.google.com/file/d/1lj1iqyNl6UayicHwUzRsRvGj3IiKqWDo/view?usp=sharing), [Slides](https://drive.google.com/file/d/1YwkTzSv5oEPRn_hjR-GEy30yoDQqm8tW/view?usp=sharing))
 
 ---
+
+## Overview
 
 This project presents the development of a **frontier-based exploration system** for autonomous navigation using an **RGB-D camera** mounted on a **Kobuki Turtlebot2**. The objective is to enable the robot to autonomously explore unknown environments by identifying and navigating to frontiers, which are the boundaries between known and unexplored areas. This approach integrates advanced path planning and control algorithms to enhance the efficiency and accuracy of autonomous navigation and mapping.
 
 Our system uses **connected component labeling** to detect and cluster frontiers, selecting exploration targets based on **maximum information gain**. The integration of **RRT\* (Rapidly-exploring Random Tree Star)** algorithm with **Dubin's path strategies** allows for efficient path planning while ensuring smooth navigation in open spaces. However, challenges were identified in tight spaces, which were addressed through parameter tuning during testing. Additionally, the robot's velocity and direction were controlled by a hybrid system combining a **PID Controller** for velocity stability and a **Pure Pursuit Controller** for direction management, particularly useful in dynamic environments.
 
-# Methodology
+## Methodology
 
 The project employs a combination of path planning and control algorithms:
 
@@ -37,11 +39,9 @@ The system was developed in Python and implemented within the **Robot Operating 
     System architecture of the autonomous robot exploration system, integrating RRT*, Dubin's paths, and PID control.
 </div>
 
-# Results
+## Results
 
 The results demonstrated the effectiveness of our approach in achieving efficient path planning, exploration coverage, and overall system performance. The integration of **RRT\* with Dubin’s paths** facilitated smooth navigation, while the **PID** and **Pure Pursuit** controllers ensured precise control. Both the simulation and real-world tests yielded successful exploration and mapping outcomes, although further refinement in parameter tuning is necessary for constrained environments.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pr2CdoQ64mg?si=KrXT2NUC3Ub2iXRy" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/pr2CdoQ64mg?si=KrXT2NUC3Ub2iXRy" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<!-- # Future Work
-Future enhancements could focus on optimizing the performance of **Dubin’s paths** in tight spaces and refining the exploration strategy to handle larger and more complex environments. Further research can also explore real-time adaptive path planning to improve the robot’s ability to navigate in highly dynamic environments. -->

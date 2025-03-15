@@ -3,21 +3,23 @@ layout: page
 title: Task-Priority Kinematic Control System for a Mobile Manipulator
 description: Hands-On Intervention
 img: assets/projects/task_priority/front_page.gif
-importance: 3
+importance: 5
 category: course
 ---
 
 Collaborator(s): Lisa Paul, Fatima Yousif
 
-([Report](https://drive.google.com/file/d/1MlIEQ87qab83ofVyapZVuY91HgkpM50H/view?usp=sharing))
+([Report](https://drive.google.com/file/d/18z42hxTP33a7RQrL5gyOoSOUGJUq2q7y/view?usp=sharing), [Slides](https://drive.google.com/file/d/1ByFOEX_8mcym6xi7P_RNXI5TjuEOJCCc/view?usp=sharing))
 
 ---
+
+## Overview
 
 This project describes the design and implementation of a **kinematic control system** for a **differential-drive robot (Kobuki Turtlebot 2)** equipped with a **4 DOF manipulator (uFactory uArm Swift Pro)**. The system utilizes the **Task-Priority Redundancy Resolution Algorithm** to manage the robot's redundant degrees of freedom and to prioritize tasks based on their importance.
 
 The objective of this project is to enable the **Kobuki Turtlebot** and its manipulator to perform various tasks while ensuring that higher-priority tasks are executed first. The system focuses on managing multiple tasks efficiently in a simulated environment, with potential for real-world applications in autonomous robotics. The implementation was done using the **Robot Operating System (ROS)** and validated within the **Stonefish simulator** to test control strategies and task execution.
 
-# Methodology
+## Methodology
 
 The project followed several key steps in implementation:
 
@@ -35,12 +37,12 @@ The project followed several key steps in implementation:
     System architecture of the kinematic control system for the mobile manipulator.
 </div>
 
-# Results
+## Results
 
 The system was rigorously tested in the **Stonefish simulator**, where the **Kobuki Turtlebot 2** and **uFactory uArm Swift Pro** successfully executed a variety of tasks. The **task-priority redundancy resolution algorithm** ensured that the most important tasks were always given precedence, while the use of **behavior trees** effectively managed the complexity of the task transitions.
 
 The video below showcases the system in action, demonstrating the implementation of the **kinematic control system** using the **task-priority redundancy resolution algorithm** for the mobile manipulator.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W0Ts6vgpDLE?si=rKfMl3aqbzGdKFP2" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="960" height="540" src="https://www.youtube.com/embed/W0Ts6vgpDLE?si=rKfMl3aqbzGdKFP2" title="YouTube video player" frameborder="0" style="border: 0px solid #bbb; border-radius: 10px; width: 100%;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The simulation results, supported by the demonstration video, highlight the effectiveness of the **task-priority redundancy resolution algorithm** in managing the robot's control system, offering a flexible and scalable solution for mobile manipulator tasks.
